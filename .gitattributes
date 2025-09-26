@@ -1,0 +1,13 @@
+# 所有文本文件统一为 LF
+* text=auto
+
+# 强制 Markdown 文件 LF
+*.md text eol=lf
+
+# 强制 HTML/CSS/JS 文件 LF
+*.html text eol=lf
+*.css text eol=lf
+*.js text eol=lf
+
+# SQL 文件
+*.sql text eol=lf
