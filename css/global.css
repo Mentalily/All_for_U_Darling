@@ -1,0 +1,19 @@
+body {
+    background-color: #f8edeb;
+}
+
+h1 {
+    color: #735d78;
+}
+
+p {
+    color: #735751;
+}
+
+.note {
+    color: #b392ac;
+}
+
+a {
+    text-decoration: none;
+}

@@ -1,0 +1,111 @@
+@font-face {
+    font-family: "Champignon";
+    src: url("../fonts/Champignon.ttf");
+}
+
+@font-face {
+    font-family: "AmdC";
+    src: url("../fonts/Angelique\ ma\ douce\ Colombe.ttf");
+}
+
+@font-face {
+    font-family: "JA";
+    src: url("../fonts/JaneAust.ttf");
+}
+
+@font-face {
+    font-family: "TYZ";
+    src: url("../fonts/TianYingzhang.TTF");
+}
+
+@font-face {
+    font-family: "LXGW";
+    src: url("../fonts/LXGWWenKai-Regular.ttf");
+}
+
+header {
+    width: 100%;
+    background-color: #ffe5d9;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
+
+.logo {
+    flex: 1;
+    padding-left: 10px;
+    /* display: flex; */
+}
+
+.logo h1 {
+    font-family: "Champignon";
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+.logo span {
+    font-size: 24px;
+}
+
+.logo small {
+    font-family: "JA";
+    font-size: 12px;
+    font-weight: 300;
+}
+
+nav {
+    display: flex;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    /* gap: 20px; */
+}
+
+nav ul li {
+    flex: 1 0 0;
+    margin: 0 15px;
+    text-align: center;
+}
+
+nav ul li a {
+    font-family: "AmdC";
+    font-size: 42px;
+    color: #f4acb7;
+    font-weight: 500;
+    display: block;
+    white-space: nowrap; /* 禁止换行 */
+    text-shadow: 1px .5px 1px #9d81897d;
+}
+
+nav ul li a,
+nav ul li a:before,
+nav ul li a:after {
+    transition: all .5s;
+}
+
+nav ul li a:hover {
+    color: #9d8189;
+}
+
+nav ul li a {
+    position: relative;
+}
+
+nav ul li a:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0%;
+    content: '';
+    color: transparent;
+    background: #9d8189;
+    height: 1px;
+}
+
+nav ul li a:hover:after {
+    width: 100%;
+}
